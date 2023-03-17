@@ -117,6 +117,18 @@ nav button{
     color: #0E8388;
 }
 
+
+
+/* section three 2.0*/
+.cardL{
+    
+    border-right: solid 2px  #0E8388;
+}
+.stats{
+    
+    font-size: 10px;
+}
+
 @media screen and (max-width:1000px){
     #cardgroupof5{
         flex-direction: column;
@@ -128,17 +140,13 @@ nav button{
         width: 40%;
         margin: 20px;
         height: 280px;
-     }
-}
-
-/* section three 2.0*/
-.cardL{
-    
-    border-right: solid 2px  #0E8388;
-}
-.stats{
-    
-    font-size: 10px;
+    }
+    .charges h1{
+        font-size: 30px;
+    }
+    .about h1{
+        font-size: 35px;
+    }
 }
 
 /* section four */
@@ -251,8 +259,13 @@ footer div{
     footer div{
         padding: 0px;
         margin-top: 50px;
-     }
-     footer{
+    }
+    footer{
         flex-direction: column;
-     }
+    }
+    .footer-col-1,
+    .footer-col-2,
+    .footer-col-3 {
+        width: auto;
+    }
   }
